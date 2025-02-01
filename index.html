@@ -42,7 +42,7 @@
 
         </nav>
 
-        <p class="text-6xl justify-center text-center mt-10 ">Freshness <span class="text-green-500 ">You Can <br> Count </span>On, Prices You’ll Love!</p>
+        <p class="text-6xl justify-center text-center mt-10 md:grid-cols-1 ">Freshness <span class="text-green-500 ">You Can <br> Count </span>On, Prices You’ll Love!</p>
 
         <p class="text-xl justify-center text-center mt-10 ">Shop your daily essentials at unbeatable prices. From fresh produce to pantry <br> staples, we’ve got you covered every day!</p>
 
@@ -62,22 +62,33 @@
 
 
         <div class="flex flex-wrap justify-center gap-10 mr-8">
-            <div class=" w-md h-380px rounded-xl bg-[#efeae2] flex flex-col items-center">
-                <img class="justify-center" src="./images/service.png" alt="">
+            <div class=" w-md h-380px bg-[#efeae2] flex flex-col items-center">
+                <div class="rounded-full bg-white w-30 h-30">
+                    <img class="justify-center" src="./images/service.png" alt="">
+                </div>
                 <p class="text-2xl font-semibold text-center">24/7 Services</p>
                 <p class="text-center">We're open for business 24/7. <br>We offer 24/7 internet access. <br> alwaysThe power plant is always running.</p>
             </div>
 
             <div class=" w-md h-380px rounded-xl bg-[#efeae2] flex flex-col items-center ">
-                <img class="" src="./images/delivery.png" alt="">
+
+                <div class="rounded-full bg-white w-30 h-30">
+                    <img class="" src="./images/delivery.png" alt="">
+
+                </div>
                 <p class="text-2xl font-semibold text-center">Fast Delivery</p>
                 <p class="text-center">usually the fast nature of the delivery is<br>one of the key criteria for the purchase being<br>well-known rapid delivery service is Deliveroo.</p>
             </div>
 
             <div class=" w-md h-380px rounded-xl bg-[#efeae2] flex flex-col items-center p-10">
-                <img class="" src="./images/healthy.png" alt="">
-                <p class="text-2xl font-semibold text-center">Healthy Products</p>
-                <p class="text-center">They can be labeled or advertised as such<br>but they are not intended<br>to treat or cure disease.</p>
+                <div class="rounded-full bg-white w-30 h-30 relative bottom-8">
+                    <img class="relative left-3" src="./images/healthy.png" alt="">
+                </div>
+
+                <div class="relative bottom-8">
+                    <p class="text-2xl font-semibold text-center">Healthy Products</p>
+                    <p class="text-center">They can be labeled or advertised as such<br>but they are not intended<br>to treat or cure disease.</p>
+                </div>
             </div>
 
         </div>
@@ -101,7 +112,7 @@
 
                 </div>
 
-                <div class="grid grid-cols-3 gap-10">
+                <div class="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3 ">
                     <div class="flex flex-col items-center bg-white w-80">
                         <img class="rounded-lg bg-white" src="./images/onion.png" alt="">
                         <i class="fa-solid fa-star">4.5</i>
@@ -180,7 +191,7 @@
     <p class="text-4xl text-green-600 ml-36 mt-10 mb-10">Arrival & Offers</p>
 
 
-    <div class="mt-10 flex justify-center gap-4 ">
+    <div class="mt-10 flex flex-col md:flex-row justify-center gap-4">
         <section class="w-5/11">
             <div class="flex">
                 <div class=" bg-green-700 w-full h-70">
